@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100px;
+}
+
+.page-wrapper {
+    max-width: 400px;
+    padding: 15px 15px 0 15px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #C6C6C6;
+}
+
+.logo {
+    width: 130px;
+}
+
+.user-img {
+    width: 35px;
+    border-radius: 50%;
+}
+
+.post {
+  padding: 12px 0 20px;
+}
+
+.user-info {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+p {
+    font-size: 12px;
+}
+
+.user-info p {
+    margin: 2px;
+}
+
+.user-photo {
+    width: 100%;
+    max-width: 375px;
+    margin-bottom: 12px;
+}
+
+.icons-bar {
+    display: flex;
+    gap: 8px;
+}
+
+.icon {
+    width: 26px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+
